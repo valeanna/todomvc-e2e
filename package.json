@@ -1,0 +1,18 @@
+{
+  "name": "todomvc-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec cypress/integration/*.spec.js",
+    "cypress:open": "cypress open"
+  },
+  "author": "Anna Chervonchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.8.0",
+    "eslint": "^7.23.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-cypress": "^2.11.2"
+  }
+}
